@@ -159,10 +159,10 @@ p {
 }
 
 .product_last .product__img img {
-    margin-top: 64px;
+    /*margin-top: 64px;*/
     display: inline-block;
     width: 100%;
-    max-width: 324px;
+    max-width: 250px;
 }
 
 .product_last .product__content {
