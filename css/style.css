@@ -34,6 +34,12 @@ a {
     width: 100%;
 }
 
+.header {
+  margin-bottom: 74px;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+}
+
 .header__wrap {
   margin: 0 auto;
   max-width: 1356px;
@@ -41,7 +47,7 @@ a {
 }
 
 .banner {
-    margin-bottom: 74px;
+    /*margin-bottom: 74px;*/
     display: block;
     background-image: url("../img/banner_bg.jpg");
     background-repeat: repeat;
@@ -487,6 +493,11 @@ p {
         line-height: 20px;
     }
 
+    .header {
+        margin-bottom: 54px;
+        padding: 10px 6%;
+    }
+
     .main-title {
         margin: 0 0 30px;
         padding: 0 0 12px;
@@ -538,9 +549,9 @@ p {
         background-color: #0875d9;
     }
 
-    .banner {
+    /*.banner {
         margin-bottom: 54px;
-    }
+    }*/
 
     .intro {
         margin-bottom: 72px;
@@ -658,6 +669,11 @@ p {
         line-height: 20px;
     }
 
+    .header {
+        margin-bottom: 54px;
+        padding: 10px;
+    }
+
     .main-title {
         margin: 0 0 30px;
         padding: 0 0 12px;
@@ -707,10 +723,6 @@ p {
 
     .btn:hover {
         background-color: #0875d9;
-    }
-
-    .banner {
-        margin-bottom: 54px;
     }
 
     .intro {
@@ -871,7 +883,6 @@ p {
         line-height: 27px;
     }
     .contacts_header {
-      padding: 0 5px;
       width: 100%;
     }
     .contacts_header li {
